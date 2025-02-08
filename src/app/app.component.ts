@@ -12,7 +12,7 @@ import { AuthDirective } from './auth/auth.directive';
   imports: [
     AuthComponent, 
     LearningResourcesComponent, 
-    AuthDirective
+    AuthDirective,
   ],
 })
 export class AppComponent {
