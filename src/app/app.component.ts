@@ -2,7 +2,7 @@ import { Component, computed } from '@angular/core';
 import { AuthService } from './auth/auth.service';
 import { AuthComponent } from './auth/auth.component';
 import { LearningResourcesComponent } from './learning-resources/learning-resources.component';
-import { NgIf } from '@angular/common';
+import { AuthDirective } from './auth/auth.directive';
 
 @Component({
   selector: 'app-root',
@@ -12,7 +12,7 @@ import { NgIf } from '@angular/common';
   imports: [
     AuthComponent, 
     LearningResourcesComponent, 
-    NgIf
+    AuthDirective
   ],
 })
 export class AppComponent {
